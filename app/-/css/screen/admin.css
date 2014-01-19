@@ -1,0 +1,30 @@
+#header {height: 46px;}
+#header ol>li {list-style:none; display: inline-block; }
+#header ol>li>a {font-weight: bold; margin-right: 15px; display: block; float:left; text-decoration: none;font-size:14px;}
+#header ol>li>ul {
+    margin: 0;
+    padding: 2px 5px;
+}
+#header ol>li>ul>li {
+    list-style: none;
+}
+#header ol>li>ul>li>a{
+    color: #000;
+    display: block;
+}
+ul.sublinks, ul.subdroplinks {
+    display: none;
+    background: #cecece;
+}
+#header a {font-weight:bold; text-decoration:none; font-size: 12px;}
+#header sup a {font-size: 10px;}
+#content {clear: both;}
+
+#user_access {
+    width: 200px;
+    float: right;
+}
+
+#additional_details {
+    width: 500px;
+}

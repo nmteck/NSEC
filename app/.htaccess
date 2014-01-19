@@ -1,0 +1,6 @@
+RewriteEngine on
+
+#RewriteCond %{HTTP_HOST} ^jelliclepersians.com [NC]
+#RewriteRule ^(.*)$ http://www.jelliclepersians.com/$1 [L,R=301]
+RewriteCond $1 !^(index\.php|robots\.txt|-)
+RewriteRule ^(.*)$ /index.php?/$1 [L]
